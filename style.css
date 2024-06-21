@@ -1,0 +1,28 @@
+body {
+  font-family: 'Archivo Black', sans-serif;  /* Bold font with a strong feel */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("background.jpg");  /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;  /* Center content within the container */
+}
+
+h1 {
+  font-size: 3em;  /* Adjusted font size for smaller text */
+  color: white;  /* White text color */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);  /* Subtle text shadow */
+}
+
+#date-time {
+  margin-top: 10px;  /* Add some space between heading and date/time */
+  color: white;
+  font-size: 0.8em;  /* Adjust font size for date/time */
+}
